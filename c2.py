@@ -49,7 +49,7 @@ def main():
 
     os.system("clear")
     print(logo)
-    print(f"{Y}[INFO] Enter the name (SSID) of the Wi-Fi network:{END}")
+    print(f"{Y}[INFO] Enter the name (WiFi) of the Wi-Fi network:{END}")
     network_name = input(f"{C}[?] Network Name (SSID): {END}").strip()
 
     # Choose password source
