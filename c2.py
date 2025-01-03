@@ -31,7 +31,7 @@ def crack_wifi(network_name, passwords):
     for password in passwords:
         print(f"{B}[TESTING] {password}{END}")
         time.sleep(1)  # Simulating testing time
-        if password == "12345678" or password == "kunduz1394":  # Simulate success for these passwords
+        if password == "12345678" or password == "kunduz1122":  # Simulate success for these passwords
             print(f"{G}[SUCCESS] Password found: {password}{END}")
             return password
     print(f"{R}[FAILED] Could not find password for {network_name}{END}")
@@ -67,8 +67,8 @@ def main():
         passwords = [password.strip() for password in passwords]  # Ensure no extra spaces or newlines
     elif choice == '2':  # Default password list
         passwords = [
-            "123456", "password", "123456789", "12345", "kunduz1394", "qwerty", "abc123", "letmein", "admin",
-            "welcome", "sunshine", "iloveyou", "princess", "password1", "kunduz1394", "dragon", "football", "1234", 
+            "11111111", "password", "123456789", "123456789", "kunduz1364", "qwerty", "abc12345", "letmein", "admin",
+            "welcome", "sunshine", "iloveyou", "princess", "password1", "kunduz1294", "dragon", "football", "11223344", 
             "qwerty123", "letmein123", "test123", "password123", "1q2w3e4r", "guest", "root", "trustno1"
         ]
     else:
